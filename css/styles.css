@@ -13,19 +13,6 @@ a.nav-link.hover-underline-animation.nbMenuItem{
     color:rgb(82, 81, 81)
 }
 
-.animate-btn-click:focus:before{
-    transform:scale(1.0) 0s ease-in-out forwards;
-}
-
-
-.animate-btn-click:focus:after{
-    transform:scale(1.1) 0.5s ease-in-out forwards;
-}
-
-.animate-btn-click:active:after{
-    transform:rotate(90deg) 0.5s ease-in-out forwards;
-}
-
 .authors{
     background-color: #dbe3e7;
 }
@@ -103,4 +90,63 @@ html {
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
+}
+
+
+/* Styling For Open and Close Button With Arrows
+    Credit to Catraco for designing and animating arrow animations.
+    Source: https://uiverse.io/catraco/unlucky-turkey-28
+   -----------------------------------------------------------------------------   */
+
+.arrow-container .chevron-down {
+   /*transform: translate(1rem, 0.5rem); -Doesn't work when Arrow is pointed up
+   and has the collapsed class*/
+
+   margin-left:1rem;
+   margin-top:0.5rem;
+}
+
+
+.arrow-container .chevron-down {
+    /*------ Settings ------*/
+  position: absolute;
+  animation: keyframes-return .5s;
+}
+
+/* ------ On check event ------ */
+.arrow-container input:checked ~ .chevron-down {
+  animation: keyframes-rotate .5s;
+  transform: rotate(180deg);
+}
+
+/* ------ Hide the default checkbox ------ */
+.arrow-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-rotate {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes keyframes-return {
+  0% {
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
