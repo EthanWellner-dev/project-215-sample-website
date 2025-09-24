@@ -69,7 +69,7 @@
 
                 <hr><br> <!-- Line break and Horizontal Break-->
 
-                <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
+                <table id="procedure-table" class="table table-hover text-center table-light table-bordered border-dark-subtle">
                     <thead>
                         <tr class="table-primary">
                             <th><h3>Step</h3></th>
@@ -86,23 +86,39 @@
                             </th>
 
                             <td>
-                                <h3 class="howTo d-inline"> Start Python Flask Server </h3>
+                                <h3 class="howTo d-inline"> Start Apache Server and MySQL Database</h3>
                                 <label class="arrow-container d-inline">
                                     <input checked="checked" type="checkbox">
                                     <svg data-bs-toggle="collapse" data-bs-target="#more-info-1" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="chevron-down collapsed"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg>
                                 </label>
-                                <!--
-                                <button class="btn btn-primary ico-parent" type="button" data-bs-toggle="collapse" data-bs-target="#more-info-1">
-                                    <i class="bi bi-plus h2 icon-white animate-btn-click"></i>
-                                </button>
-                                -->
                                 <div id="more-info-1" class="collapse">
-                                    <p>More Information Here</p>
+                                    <p>This study used xampp for these tools. Apache is used to locally host the pages that would locally <br>
+                                        process the images. It allows the results to be sent to the PHP backend, which stores the data in <br>
+                                        a neat mySQL database, with heavy indexing.</p>
                                 </div>
                             </td>
-                            <td class="text-center"><img src="img/python-logo.png" alt="Python Logo"/></td>
+                            <td class="text-center"><img class="img-fluid table-image" src="img/xampp.png" alt="Python Logo"/></td>
                         </tr>
 
+                        <tr id="row2">
+                            <th scope="row" class="table-secondary align-middle">
+                                <h3>2</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo d-inline"> Adjust PHP backend to reflect correct image adverserial type</h3>
+                                <label class="arrow-container d-inline">
+                                    <input checked="checked" type="checkbox">
+                                    <svg data-bs-toggle="collapse" data-bs-target="#more-info-1" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="chevron-down collapsed"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg>
+                                </label>
+                                <div id="more-info-1" class="collapse">
+                                    <p>This study used xampp for these tools. Apache is used to locally host the pages that would locally <br>
+                                        process the images. It allows the results to be sent to the PHP backend, which stores the data in <br>
+                                        a neat mySQL database, with heavy indexing.</p>
+                                </div>
+                            </td>
+                            <td class="text-center"><img class="img-fluid table-image" src="img/xampp.png" alt="Python Logo"/></td>
+                        </tr>
                     </tbody>
                 </table>
                 

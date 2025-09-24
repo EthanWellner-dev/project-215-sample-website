@@ -65,6 +65,9 @@ html {
     background-color: #8fa3ab; /*#0096c7*/
 }
 
+.table-image{
+    max-width: 200px;     
+}
 /* ----------------- ID CSS ----------------- */
 
 /* -----------------Underline Animation CSS -----------------*/
