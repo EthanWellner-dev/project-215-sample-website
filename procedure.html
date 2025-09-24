@@ -69,7 +69,7 @@
 
                 <hr><br> <!-- Line break and Horizontal Break-->
 
-                <table class="table tabler-hover text-center table-light table-bordered border-dark-subtle">
+                <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
                     <thead>
                         <tr class="table-primary">
                             <th><h3>Step</h3></th>
@@ -80,60 +80,22 @@
 
                     <tbody class="table-group-divider">
                         
-                        <div id="row1">
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary">
-                                    <h3>1</h3>
-                                </th>
-                            </tr> <!-- Scope = row specifies that this is a row header cell-->
+                        <tr id="row1">
+                            <th scope="row" class="table-secondary align-middle">
+                                <h3>1</h3>
+                            </th>
 
-                            <td><h3 class="howTo"> Start Python Flask Server</h3></td>
+                            <td>
+                                <h3 class="howTo d-inline"> Start Python Flask Server</h3>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#more-info-1">
+                                    <i class="bi bi-plus h2 icon-white animate-btn-click"></i>
+                                </button>
+                                <div id="more-info-1" class="collapse">
+                                    <p>More Information Here</p>
+                                </div>
+                            </td>
                             <td class="text-center"><img src="img/python-logo.png" alt="Python Logo"/></td>
-                        </div>
-
-                        <div id="row2">
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary">
-                                    <h3>2</h3>
-                                </th>
-                            </tr> <!-- Scope = row specifies that this is a row header cell-->
-
-                            <td><h3 class="howTo"> Provide Description for Row 2</h3></td>
-                            <td class="text-center"><img src="img/range-finder-tp.png" alt="Python Logo"/></td>
-                        </div>
-
-                        <div id="row3">
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary">
-                                    <h3>3</h3>
-                                </th>
-                            </tr> <!-- Scope = row specifies that this is a row header cell-->
-
-                            <td><h3 class="howTo"> Provide Description for Row 3</h3></td>
-                            <td class="text-center"><img src="img/nano33-iot3.png" alt="Python Logo"/></td>
-                        </div>
-
-                        <div id="row4">
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary">
-                                    <h3>4</h3>
-                                </th>
-                            </tr> <!-- Scope = row specifies that this is a row header cell-->
-
-                            <td><h3 class="howTo"> Provide Description for Row 4</h3></td>
-                            <td class="text-center"><img src="img/arduino-logo.png" alt="Python Logo"/></td>
-                        </div>
-
-                        <div id="row5">
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary">
-                                    <h3>5</h3>
-                                </th>
-                            </tr> <!-- Scope = row specifies that this is a row header cell-->
-
-                            <td><h3 class="howTo">Provide Description for Row 5</h3></td>
-                            <td class="text-center"><img src="img/firebase-logo.png" alt="Python Logo"/></td>
-                        </div>
+                        </tr>
 
                     </tbody>
                 </table>
