@@ -1,1 +1,4 @@
-Xampp.png logo - used in procedure.html: https://w7.pngwing.com/pngs/952/732/png-transparent-xampp-full-logo-tech-companies-thumbnail.png
+Xampp.png xampp logo - used in procedure.html: https://w7.pngwing.com/pngs/952/732/png-transparent-xampp-full-logo-tech-companies-thumbnail.png
+Php.png php logo - used in procedure.html https://images.seeklogo.com/logo-png/26/1/php-logo-png_seeklogo-265704.png
+opencv.svg opencv logo - used in procedure.html https://upload.wikimedia.org/wikipedia/commons/d/d2/OpenCV_logo_black.svg
+tensorflowjs.png tensorflowjs logo - used in procedure.html https://codelabs.developers.google.com/static/codelabs/tensorflowjs-convert-python-savedmodel/img/1aee0ede85885520.png
