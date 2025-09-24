@@ -13,8 +13,17 @@ a.nav-link.hover-underline-animation.nbMenuItem{
     color:rgb(82, 81, 81)
 }
 
-.animate-btn-click:focus{
-    transform:scale(1.1);
+.animate-btn-click:focus:before{
+    transform:scale(1.0) 0s ease-in-out forwards;
+}
+
+
+.animate-btn-click:focus:after{
+    transform:scale(1.1) 0.5s ease-in-out forwards;
+}
+
+.animate-btn-click:active:after{
+    transform:rotate(90deg) 0.5s ease-in-out forwards;
 }
 
 .authors{
