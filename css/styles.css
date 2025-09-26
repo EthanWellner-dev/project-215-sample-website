@@ -39,6 +39,9 @@ html {
     color: #FFFFFF;
 }
 
+.logo{
+  width: 50px;height: auto;border-radius:50%;
+}
 .nb-background-color{   /* navbar background color */
   background-image: url('../img/tech-head.jpeg');
 }
