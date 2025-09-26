@@ -2,6 +2,10 @@
 a.nav-link.hover-underline-animation.nbMenuItem{
     color:white;
 }
+.authorimg{
+  width:100%;
+  height: 100%;
+}
 
 .about{
     width:400px;
@@ -18,11 +22,13 @@ a.nav-link.hover-underline-animation.nbMenuItem{
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-image: url('../img/tech-bg.jpg');
+    background-size: cover;
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: rgba(0, 11, 158, 0.5);
+    
 }
 
 html {
@@ -34,7 +40,7 @@ html {
 }
 
 .nb-background-color{   /* navbar background color */
-    background-image: url('../img/tech-bg.jpeg');
+  background-image: url('../img/tech-head.jpeg');
 }
 
 .nbMenuItem{               /* navbar link text properties */
