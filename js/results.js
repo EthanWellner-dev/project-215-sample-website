@@ -21,7 +21,7 @@ async function parsedata(domobject, datafileloc,graphTitle,yAxisTitle,xAxisTitle
         rowobject[header] = []; //initializing empty arrays for each column, identified by header name
     });
     
-    const table = csvdata.split('\r\n').slice(1); //getting all the data rows, excluding header row
+    const table = csvdata.split('\n').slice(1); //getting all the data rows, excluding header row
     table.forEach(row => {
 
         const cells = row.split(','); //splitting each row into individual cell data
