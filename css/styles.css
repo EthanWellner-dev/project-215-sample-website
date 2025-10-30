@@ -26,6 +26,9 @@ a.nav-link.hover-underline-animation.nbMenuItem{
     background-size: cover;
 }
 
+.chart{
+  max-height:min(600px, 80vh);
+}
 .footer{
     background-color: rgba(0, 11, 158, 0.5);
     
